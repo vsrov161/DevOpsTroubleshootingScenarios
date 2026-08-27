@@ -1,2 +1,7 @@
-# About
-Here I'm gathering all possible scenarios DevOps might face to, repo is in progress
+## About
+Here I gather all possible scenarios a DevOps engineer might face.
+
+## How
+Use Docker Compose to create a deliberately misconfigured environment for practicing troubleshooting skills.
+
+# The repository is currently a work in progress
