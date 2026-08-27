@@ -1,6 +1,6 @@
 <?php
 // БАГ 3: Подключение к БД через localhost вместо имени сервиса
-$host = 'localhost'; 
+$host = 'db'; 
 $user = 'root';
 $pass = 'secret';
 $db = 'test_db';

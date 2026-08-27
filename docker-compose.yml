@@ -16,6 +16,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.php
+    depends_on:
+      - db
     volumes:
       - ./index.php:/var/www/html/index.php
     networks:
@@ -27,6 +29,7 @@ services:
       MYSQL_ROOT_PASSWORD: secret
       MYSQL_DATABASE: test_db
     # БАГ 4: Отсутствие healthcheck (Race condition)
+    
     networks:
       - webnet
 
